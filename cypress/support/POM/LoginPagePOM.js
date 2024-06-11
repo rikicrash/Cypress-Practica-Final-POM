@@ -5,12 +5,12 @@ class LoginPagePOM {
   #inputUserName = "input[name='username']";
   #inputPassWord = 'input[name="password"]';
   #loginButton =
-    ".oxd-button oxd-button--medium oxd-button--main orangehrm-login-button";
+    ".oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button";
 
   Login(username, password) {
     cy.get(this.#inputUserName).type(username);
     cy.get(this.#inputPassWord).type(password);
-    cy.submit();
+    this.submit();
   }
 
   submit() {
