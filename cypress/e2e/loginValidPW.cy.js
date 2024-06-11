@@ -2,7 +2,7 @@
 import LoginPagePOM from "../support/POM/LoginPagePOM";
 
 const urlPAge =
-  "https://www.speedtest.net/result/16357008368";
+  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
 //const loginpagepom = new LoginPagePOM();
 const correctUser = "Admin";
