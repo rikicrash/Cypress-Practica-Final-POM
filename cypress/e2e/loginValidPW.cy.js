@@ -2,11 +2,12 @@
 import LoginPagePOM from "../support/POM/LoginPagePOM";
 
 const urlPAge =
-  "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+  "https://www.speedtest.net/result/16357008368";
 
 //const loginpagepom = new LoginPagePOM();
 const correctUser = "Admin";
 const correctPW = "admin123";
+
 
 
 describe("Login page Test Cases", () => {
